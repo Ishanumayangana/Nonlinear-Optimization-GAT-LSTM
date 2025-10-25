@@ -1,9 +1,5 @@
 # Advanced AI Pipeline: Nonlinear Optimization → GAT → LSTM
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch 2.8](https://img.shields.io/badge/PyTorch-2.8-red.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A state-of-the-art deep learning architecture that combines **nonlinear optimization**, **Graph Attention Networks (GAT)**, and **LSTM with attention mechanisms** for advanced sequence prediction and spatio-temporal modeling tasks.
 
 ## 🌟 Overview
@@ -103,47 +99,6 @@ This combination provides **complementary strengths**:
 
 **Key Advantage**: The pipeline captures **multi-scale patterns** - from node-level (GAT attention) to sequence-level (LSTM attention).
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.9+
-- PyTorch 2.8+
-- CUDA-capable GPU (optional, CPU supported)
-- 4GB+ RAM
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Ishanumayangana/Nonlinear-Optimization-GAT-LSTM.git
-cd Nonlinear-Optimization-GAT-LSTM
-```
-
-2. **Create a virtual environment** (recommended)
-```bash
-# Using conda
-conda create -n gat-lstm python=3.9
-conda activate gat-lstm
-
-# Or using venv
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install required packages**
-```bash
-pip install torch torchvision
-pip install torch-geometric
-pip install scipy scikit-learn matplotlib numpy
-```
-
-Or run the first cell in the notebook which includes:
-```python
-%pip install torch_geometric
-%pip install --force-reinstall numpy
-%pip install scikit-learn
-```
 
 ### Quick Start
 
@@ -195,16 +150,6 @@ The notebook generates **8 comprehensive visualizations**:
 7. 🎯 **Predictions vs Ground Truth** - Scatter plot with perfect prediction line
 8. 📊 **Error Distribution** - Histogram of prediction errors
 9. 🔥 **Attention Weights Heatmap** - Temporal attention visualization
-## 📁 Project Structure
-
-```
-Nonlinear-Optimization-GAT-LSTM/
-├── GAT_LSTM.ipynb              # Main notebook with complete implementation
-├── README.md                   # This file
-├── GAT_LSTM.html              # HTML export (for viewing/PDF conversion)
-├── SAVE_AS_PDF_INSTRUCTIONS.md # Guide for PDF export
-└── .gitignore                 # Git ignore file
-```
 
 ### Notebook Sections
 
@@ -530,9 +475,7 @@ Contributions are welcome! Here's how you can help:
 - [Differential Evolution](https://link.springer.com/article/10.1023/A:1008202821328) (Storn & Price, 1997)
 - [SciPy Optimization Documentation](https://docs.scipy.org/doc/scipy/reference/optimize.html)
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
@@ -546,36 +489,4 @@ Special thanks to:
 - PyTorch Geometric team for graph neural network implementations
 - SciPy team for optimization algorithms
 - The open-source community for invaluable tools and inspiration
-
-## 📧 Contact
-
-**Project Maintainer**: Ishanu Mayangana
-- GitHub: [@Ishanumayangana](https://github.com/Ishanumayangana)
-- Repository: [Nonlinear-Optimization-GAT-LSTM](https://github.com/Ishanumayangana/Nonlinear-Optimization-GAT-LSTM)
-
-For questions, suggestions, or collaborations:
-- Open an issue on GitHub
-- Submit a pull request
-- Star ⭐ the repository if you find it useful!
-
----
-
-## 🎓 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@software{gat_lstm_pipeline,
-  author = {Mayangana, Ishanu},
-  title = {Advanced AI Pipeline: Nonlinear Optimization with GAT and LSTM},
-  year = {2025},
-  url = {https://github.com/Ishanumayangana/Nonlinear-Optimization-GAT-LSTM}
-}
-```
-
----
-
-**Made with ❤️ and ☕ | Combining the best of optimization, graphs, and sequences**
-
-**Success Metrics Achieved**: ✅ R² > 0.98 | ✅ Stable Training | ✅ Interpretable | ✅ Production-Ready
 
